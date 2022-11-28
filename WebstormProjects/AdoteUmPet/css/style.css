@@ -1,0 +1,148 @@
+body {
+    font-family: candara, verdana, arial, serif;
+    background-color: #969696;
+    font-size: 2vh;
+}
+
+.background {
+    background-image: url(images/golden-retriever.png);
+    max-height: border-box;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top left;
+    background-size: cover;
+    opacity: 90%;
+}
+
+header {
+    display: flex;
+    margin-top: 2vh;
+    font-family: candara, serif;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+header .nav-icon-orange {
+    font-weight: bold;
+    color: #FF9E45;
+    font-size: 5vh;
+    margin-left: 90vh;
+    max-width: 20vh;
+    width: 100%;
+}
+
+header .nav-icon-blue {
+    font-weight: bold;
+    color: #253990;
+    font-size: 5vh;
+    margin-top: -3vh;
+    margin-left: 90vh;
+    max-width: 20vh;
+    width: 100%;
+}
+
+header .sign-in {
+    align-items: center;
+    display: flex;
+    color: #253990;
+    margin-right: 30vh;
+}
+
+header .menu {
+    justify-content: space-between;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+header .exit-icon {
+    width: 5vh;
+    height: 5vh;
+}
+
+.link-default {
+    color: #253990;
+    text-decoration: none;
+}
+
+.link-default-contrast {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-sub1 {
+    margin-top: 5vh;
+    font-size: 2vh;
+}
+
+.col-md-3 {
+    background-color: #253990;
+    padding: 1vh;
+}
+
+.menu-sub2 {
+    display: flex;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.default6 {
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    border: 1px black solid;
+    margin-left: 15vh;
+}
+
+.button1 {
+    background-color: #FF9E45;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2vh 15vh;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    font-size: 2vh;
+}
+
+.button2 {
+    background-color: #253990;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2vh 15vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 2vh;
+}
+
+.input1 {
+    background-color: #EEEEEE;
+    color: #FFFFFF;
+    padding: 1vh 5vh;
+    margin-top: 5vh;
+    border-radius: 10%;
+}
+
+.input2 {
+    background-color: #EEEEEE;
+    color: #FFFFFF;
+    padding: 1vh 5vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    border-radius: 10%;
+}
+
+.input3 {
+    background-color: #EEEEEE;
+    color: #FFFFFF;
+    padding: 1vh 5vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    border-radius: 10%;
+}
+
+.margin-up {
+    margin-top: 3vh;
+}
